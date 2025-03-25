@@ -3,256 +3,270 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I2P - Invisible Internet Project</title>
-  <style>
-/* Dracula Darker Theme */
- body {
-     background-color: #21222c;
-     border: 40px solid #21222c;
-     margin: 0;
-     padding: 0 10px;
-     font-family: "Liberation Sans", "Myriad", "Bitstream Vera Sans", "Lucida Grande", "Luxi Sans", "Trebuchet MS", helvetica, verdana, arial, sans-serif;
-     line-height: 1.2em;
-     color: #f8f8f2;
-    /* Foreground color */
-}
-/* Container styles */
- body > div.book, body > div.article, body > div.set, body > div.preface, body > div.chapter, body > div.section, body > div.appendix, body > div.part, div.sect1 {
-     margin-top: 0;
-     padding: 2em;
-     background-color: #282a36;
-    /* Container background */
-     margin: 40px auto 4em;
-     padding: 1px 40px 20px 30px;
-     color: #f8f8f2;
-    /* Container text */
-}
- h1, h2, h3, h4, h5, h6 {
-     color: #bd93f9;
-    /* Headers */
-}
- a {
-     color: #8be9fd;
-    /* Links */
-     text-decoration: none;
-}
- a:hover, a:focus {
-     text-decoration: underline;
-}
- p, ol, ul, blockquote, dl, dt, dd, pre, code, kbd, samp, var {
-     margin-bottom: 1em;
-}
- b, strong {
-     font-weight: bold;
-     color: #ff79c6;
-    /* Bold elements */
-}
- i, em {
-     font-style: italic;
-     color: #ff79c6;
-    /* Italic elements */
-}
- pre, code, kbd, samp, tt {
-     font-family: 'Courier New', Courier, monospace;
-     background-color: #282a36;
-    /* Code block background */
-     border: 1px solid #44475a;
-    /* Code block border */
-     padding: 0.2em 0.4em;
-     border-radius: 3px;
-     color: #f8f8f2;
-    /* Code text color */
-}
- img {
-     max-width: 100%;
-     height: auto;
-}
- table {
-     width: 100%;
-     border-collapse: collapse;
-     margin-bottom: 1em;
-}
- th, td {
-     border: 1px solid #44475a;
-    /* Table borders */
-     padding: 0.5em;
-}
- thead {
-     background-color: #6272a4;
-    /* Table header background */
-     color: #f8f8f2;
-    /* Table header text */
-}
- tfoot {
-     background-color: #282a36;
-    /* Table footer background */
-     color: #f8f8f2;
-    /* Table footer text */
-}
- hr {
-     border: 0;
-     border-top: 1px solid #44475a;
-    /* Horizontal rule */
-     margin: 2em 0;
-}
- blockquote {
-     border-left: 5px solid #bd93f9;
-    /* Blockquote left border */
-     padding-left: 1em;
-     color: #ff79c6;
-    /* Blockquote text */
-     background-color: #282a36;
-    /* Blockquote background */
-}
- sup, sub {
-     font-size: 0.8em;
-     vertical-align: super;
-}
- sub {
-     vertical-align: sub;
-}
- ins {
-     background-color: #282a36;
-    /* Inserted text background */
-     text-decoration: none;
-}
- del {
-     text-decoration: line-through;
-     color: #ff79c6;
-    /* Deleted text */
-}
- s, strike {
-     text-decoration: line-through;
-}
- q {
-     quotes: "“" "”" "‘" "’";
-}
- ruby, rt, rp {
-     font-size: 0.9em;
-}
- summary {
-     cursor: pointer;
-     color: #bd93f9;
-    /* Details summary text */
-     font-weight: bold;
-}
- details {
-     margin-bottom: 1em;
-}
- .container {
-     max-width: 800px;
-     margin: 0 auto;
-     padding: 1em;
-     background-color: #282a36;
-    /* Container background */
-     color: #f8f8f2;
-    /* Container text */
-}
-  </style>
+<title>I2P - Invisible Internet Project</title>
 </head>
 <body>
+
   <h3>I2P - Invisible Internet Project</h3>
-  <p>I2P (Invisible Internet Project) is an anonymous network layer that allows
-    for censorship-resistant, peer-to-peer communication. It is designed
-    to protect your privacy by obscuring the identity and location of its
-    users.</p>
-  <h3>References</h3>
+
+  <p>I2P, or the Invisible Internet Project, is a network layer that
+   enables anonymous and censorship-resistant peer-to-peer communication.
+   Its primary purpose is to safeguard user privacy by concealing the
+   identity and location of those using the network.</p>
+
+  <h3>Table</h3>
+
+  <h3>I2P Info Table</h3>
+
+  <table border="1">
+  <tr>
+    <th>Category</th>
+    <th>Description</th>
+    <th>Examples</th>
+  </tr>
+  <tr>
+    <td>Core Implementations</td>
+    <td>Software that implements the I2P protocol, providing the foundation for the network</td>
+    <td>
+      <ul>
+        <li><strong>I2P (Java-based)</strong>: Original implementation, widely used and well-established. Introduced in 2003, it supports garlic routing, anonymous websites (Eepsites), messaging, and file sharing.</li>
+        <li><strong>i2pd (C++-based)</strong>: Lightweight and efficient implementation, introduced in 2014. Optimized for low-resource environments like IoT devices and routers.</li>
+        <li><strong>I2P+</strong>: Enhanced Java implementation introduced in 2019, with improved speed, reliability, and resource management.</li>
+        <li><strong>Kovri</strong>: Forked from i2pd in 2015, optimized for anonymous cryptocurrency transactions, particularly for Monero.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>I2P Network</td>
+    <td>Characteristics and features of the I2P network</td>
+    <td>
+      <ul>
+        <li>Decentralized and distributed architecture</li>
+        <li>Anonymous and end-to-end encrypted communication</li>
+        <li>Floodfill mode for increased network participation</li>
+        <li>Resilient to censorship and surveillance</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Network Components</td>
+    <td>Infrastructure that makes up the I2P network, enabling anonymous and secure communication</td>
+    <td>
+      <ul>
+        <li><strong>Routers</strong>: Nodes that forward traffic within the I2P network.</li>
+        <li><strong>Tunnels</strong>: Encrypted pathways for data transmission.</li>
+        <li><strong>Destinations</strong>: Cryptographic identifiers for services and users.</li>
+        <li><strong>Address Book</strong>: Maps human-readable names to cryptographic destinations.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>I2P vs Tor</td>
+    <td>Comparison between I2P and Tor, two anonymous networking technologies</td>
+    <td>
+      <ul>
+        <li>I2P is designed for hidden services and peer-to-peer (P2P) applications.</li>
+        <li>Tor is designed for anonymous proxying of regular Internet traffic.</li>
+        <li>I2P is decentralized and distributed, while Tor relies on a centralized directory system.</li>
+        <li>I2P uses garlic routing, while Tor uses onion routing.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>I2P Protocols</td>
+    <td>Protocols used by I2P for communication and data transfer</td>
+    <td>
+      <ul>
+        <li><strong>SAM (Session Establishment and Management)</strong>: Allows applications to interact with I2P.</li>
+        <li><strong>I2CP (I2P Control Protocol)</strong>: Used for communication between I2P routers and clients.</li>
+        <li><strong>BOB (Basic Open Bridge)</strong>: Provides a simple API for connecting to I2P.</li>
+        <li><strong>I2NP (I2P Network Protocol)</strong>: Handles the core routing and encryption of I2P traffic.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Services and Features</td>
+    <td>Functionalities provided by the I2P network, including anonymous hosting, encrypted communication, and more</td>
+    <td>
+      <ul>
+        <li>Anonymous hosting of websites (Eepsites)</li>
+        <li>Encrypted communication (email, messaging, IRC)</li>
+        <li>Resilient and decentralized architecture</li>
+        <li>QR Code Generator for sharing I2P addresses</li>
+        <li>I2P Hidden Services Manager for hosting anonymous services</li>
+        <li>File sharing and torrenting (e.g., I2PSnark, BiglyBT with I2P)</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Anonymous Communication</td>
+    <td>Tools and services for anonymous communication, including websites, IRC chats, and instant messaging</td>
+    <td>
+      <ul>
+        <li><strong>Anonymous websites</strong>: Hosted on Eepsites, accessible via I2P.</li>
+        <li><strong>Anonymous IRC chats</strong>: Irc2P for secure IRC communication.</li>
+        <li><strong>Decentralized instant messaging</strong>: MaladaN-Messenger-Client for secure messaging using the Signal protocol.</li>
+        <li><strong>Email</strong>: I2P-Bote for secure, serverless email communication.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Anonymous Filesharing</td>
+    <td>Software and tools for anonymous filesharing, including BitTorrent clients and other filesharing platforms</td>
+    <td>
+      <ul>
+        <li><strong>I2PSnark</strong>: Standalone torrent client for I2P.</li>
+        <li><strong>BiglyBT with I2P</strong>: Integrated torrent client with I2P support.</li>
+        <li><strong>Transmission-I2P</strong>: Anonymous BitTorrent client based on Transmission.</li>
+        <li><strong>iMule</strong>: Anonymous file-sharing client based on eMule.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Plugins and Applications</td>
+    <td>Software that runs on top of the I2P network, providing various functionalities</td>
+    <td>
+      <ul>
+        <li><strong>I2PSnark</strong>: Torrent client for anonymous file sharing.</li>
+        <li><strong>SusiMail</strong>: Secure email client for I2P.</li>
+        <li><strong>BiglyBT</strong>: BitTorrent client with I2P integration.</li>
+        <li><strong>OpenSSH</strong>: Secure shell access over I2P.</li>
+        <li><strong>I2P-Browser</strong>: Browser bundle for accessing I2P services.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Developer Tools</td>
+    <td>APIs and tools for developers to create new applications and services on the I2P network</td>
+    <td>
+      <ul>
+        <li><strong>SAM API Bridge</strong>: Allows applications to interact with I2P.</li>
+        <li><strong>I2CP API</strong>: Control protocol for I2P routers and clients.</li>
+        <li><strong>BOB API Bridge</strong>: Simple API for connecting to I2P.</li>
+        <li><strong>py-i2phosts</strong>: Python tool for managing I2P host files.</li>
+      </ul>
+    </td>
+  </tr>
+  </table>
+
+  <h3>I2P References</h3>
+
   <ul>
-    <li><a href="https://geti2p.net" target="_blank" rel="noopener noreferrer">Official I2P Website</a></li>
-    <li><a href="https://www.whonix.org/wiki/I2P" target="_blank" rel="noopener noreferrer">Whonix I2P Documentation</a></li>
-    <li><a href="https://www.reddit.com/r/i2p" target="_blank" rel="noopener noreferrer">I2P Community on Reddit</a></li>
+    <li><a href="https://geti2p.net">https://geti2p.net</a></li>
+    <li><a href="https://geti2p.net/en/docs/how/threat-model">https://geti2p.net/en/docs/how/threat-model</a></li>
+    <li><a href="https://wiki.debian.org/I2P">https://wiki.debian.org/I2P</a></li>
+    <li><a href="https://i2pd.readthedocs.io/en/latest/">https://i2pd.readthedocs.io/en/latest/</a></li>
+    <li><a href="https://www.whonix.org/wiki/I2P">https://www.whonix.org/wiki/I2P</a></li>
+    <li><a href="https://www.reddit.com/r/i2p">https://www.reddit.com/r/i2p</a></li>
+    <li><a href="https://eyedeekay.github.io">https://eyedeekay.github.io</a></li>
   </ul>
-  <h4>Linux with I2P</h4>
+
+  <h3>Interesting Deployment of I2P</h3>
+
   <ul>
-    <li><a href="https://www.reddit.com/r/prestium" target="_blank" rel="noopener noreferrer">Prestium Subreddit</a></li>
-    <li><a href="https://github.com/DoingFedTime/Prestium" target="_blank"
-      rel="noopener noreferrer">Prestium GitHub Repository</a></li>
-    <li><a href="https://github.com/Plowsker/tails-i2pd" target="_blank" rel="noopener noreferrer">Tails I2Pd GitHub Repository</a></li>
-    <li><a href="https://www.youtube.com/@DoingFedTime" target="_blank" rel="noopener noreferrer">DoingFedTime YouTube Channel</a></li>
-    <li><a href="https://www.youtube.com/watch?v=kfkN1i9FRUY" target="_blank"
-      rel="noopener noreferrer">I2P on Linux - YouTube Video</a></li>
+    <li><a href="https://github.com/KabaOS/KabaOS">KabaOS</a> - A Security-Focused Live OS for I2P.</li>
+    <li><a href="https://github.com/DoingFedTime/Prestium">Prestium</a> - An linux os that natively runs I2P in live mode.</li>
+    <li><a href="https://github.com/Plowsker/tails-i2pd">I2P on Tails</a> - I2P on Tails script v0.1 .</li>
+    <li><a href="https://github.com/AmyMoriyama/i2p-browser-maker-linux">I2P Browser Maker Bash Script</a> - Makes it easy to get a preconfigured browser for I2P while on Linux.</li>
   </ul>
-  <h4>Others</h4>
-  <ul>
-    <li><a href="https://eyedeekay.github.io" target="_blank" rel="noopener noreferrer">Eyedeekay's I2P Blog</a></li>
-    <li><a href="https://geti2p.net/en/blog/post/2023/07/10/easy-install_for_windows_release_2.3.0"
-      target="_blank" rel="noopener noreferrer">I2P Easy Install for Windows Release 2.3.0</a></li>
-  </ul>
-  <h3>I2P Links</h3>
+
+  <h3>I2P Links of Interest</h3>
+
   <h5>Exploring I2P - "Eepsites" (I2P services)</h5>
-  <p>These are some example eepsites you can explore within the I2P network:</p>
+
   <ul>
-    <li><a href="http://stats.i2p" target="_blank" rel="noopener noreferrer">I2P Network Statistics</a></li>
-    <li><a href="http://identiguy.i2p" target="_blank" rel="noopener noreferrer">Identiguy</a></li>
-    <li><a href="http://reg.i2p" target="_blank" rel="noopener noreferrer">I2P Router Registration</a></li>
-    <li><a href="http://reg.i2p/alive" target="_blank" rel="noopener noreferrer">I2P Router Alive Check</a></li>
-    <li><a href="http://notbob.i2p" target="_blank" rel="noopener noreferrer">NotBob's Site</a></li>
-    <li><a href="http://notbob.i2p/cgi-bin/defcon.cgi?category=stats" target="_blank"
-      rel="noopener noreferrer">NotBob's Stats</a></li>
-    <li><a href="http://stormycloud.i2p" target="_blank" rel="noopener noreferrer">StormyCloud</a></li>
-    <li><a href="http://bote.i2p" target="_blank" rel="noopener noreferrer">I2P-Bote</a></li>
-    <li><a href="http://inr.i2p" target="_blank" rel="noopener noreferrer">INR</a></li>
-    <li><a href="http://planet.i2p" target="_blank" rel="noopener noreferrer">Planet I2P</a></li>
-    <li><a href="http://natter.i2p" target="_blank" rel="noopener noreferrer">Natter</a></li>
+      <li><a href="http://stats.i2p" target="_blank" rel="noopener noreferrer">I2P Network Statistics</a></li>
+      <li><a href="http://identiguy.i2p" target="_blank" rel="noopener noreferrer">Identiguy</a></li>
+      <li><a href="http://reg.i2p" target="_blank" rel="noopener noreferrer">I2P Router Registration</a></li>
+      <li><a href="http://reg.i2p/alive" target="_blank" rel="noopener noreferrer">I2P Router Alive Check</a></li>
+      <li><a href="http://notbob.i2p" target="_blank" rel="noopener noreferrer">NotBob's Site</a></li>
+      <li><a href="http://notbob.i2p/cgi-bin/defcon.cgi?category=stats" target="_blank" rel="noopener noreferrer">NotBob's Stats</a></li>
+      <li><a href="http://stormycloud.i2p" target="_blank" rel="noopener noreferrer">StormyCloud</a></li>
+      <li><a href="http://bote.i2p" target="_blank" rel="noopener noreferrer">I2P-Bote</a></li>
+      <li><a href="http://inr.i2p" target="_blank" rel="noopener noreferrer">INR</a></li>
+      <li><a href="http://planet.i2p" target="_blank" rel="noopener noreferrer">Planet I2P</a></li>
+      <li><a href="http://natter.i2p" target="_blank" rel="noopener noreferrer">Natter</a></li>
   </ul>
-  <h4>How I2P Works</h4>
-  <ul>
-    <li><a href="https://geti2p.net/en/docs/how/tech-intro" target="_blank"
-      rel="noopener noreferrer">Overview of I2P Technology</a></li>
-    <li><a href="https://www.whonix.org/wiki/Dev/Anonymity_Network"
-      target="_blank" rel="noopener noreferrer">Comparison with Other Anonymity Networks</a></li>
-  </ul>
-  <h4>I2P Software and Tools</h4>
-  <ul>
-    <li><a href="https://geti2p.net/en/browser-config" target="_blank" rel="noopener noreferrer">I2P Browser Integration</a></li>
-    <li><a href="https://geti2p.net/en/download/toolbar" target="_blank" rel="noopener noreferrer">I2P Plugins and Add-ons</a></li>
-  </ul>
-  <h4>Community and Support</h4>
-  <ul>
-    <li><a href="https://i2pforum.net/" target="_blank" rel="noopener noreferrer">I2P Forum</a></li>
-    <li><a href="https://lists.i2p2.de/cgi-bin/mailman/listinfo" target="_blank"
-      rel="noopener noreferrer">I2P Mailing Lists</a></li>
-  </ul>
-  <h4>Security and Privacy</h4>
-  <ul>
-    <li><a href="https://geti2p.net/en/docs/how/threat-model" target="_blank"
-      rel="noopener noreferrer">Best Practices for Staying Anonymous</a></li>
-    <li><a href="https://geti2p.net/en/docs/how/threat-model#threats" target="_blank"
-      rel="noopener noreferrer">Threats and Risks</a></li>
-  </ul>
-  <h4>Developing on I2P</h4>
-  <ul>
-    <li><a href="https://geti2p.net/en/developer" target="_blank" rel="noopener noreferrer">I2P SDK and API</a></li>
-    <li><a href="https://github.com/i2p" target="_blank" rel="noopener noreferrer">I2P Code Repositories</a></li>
-  </ul>
-  <h4>I2P Services</h4>
+
   <h5>I2P Search Engines</h5>
   <ul>
-    <li><a href="http://duck.i2p" target="_blank" rel="noopener noreferrer">DuckDuckGo (I2P)</a></li>
-    <li><a href="http://search.i2p" target="_blank" rel="noopener noreferrer">I2P Search</a></li>
+      <li><a href="http://duck.i2p" target="_blank" rel="noopener noreferrer">DuckDuckGo (I2P)</a></li>
+      <li><a href="http://search.i2p" target="_blank" rel="noopener noreferrer">I2P Search</a></li>
+      <li><a href="http://legwork.i2p">Legwork search engine</a></li>
+      <li><a href="http://i2pyacy.bandura.i2p">Bandura search engine</a></li>
   </ul>
+
   <h5>I2P Email Services</h5>
   <ul>
-    <li><a href="http://bote.i2p" target="_blank" rel="noopener noreferrer">I2P-Bote</a></li>
-    <li><a href="http://postman.i2p" target="_blank" rel="noopener noreferrer">Postman's I2P Email</a></li>
+      <li><a href="http://bote.i2p" target="_blank" rel="noopener noreferrer">I2P-Bote</a></li>
+      <li><a href="http://postman.i2p" target="_blank" rel="noopener noreferrer">Postman's I2P Email</a></li>
   </ul>
+
   <h5>File Sharing Services</h5>
   <ul>
-    <li><a href="https://geti2p.net/en/docs/applications/i2psnark" target="_blank"
-      rel="noopener noreferrer">I2PSnark</a></li>
+      <li><a href="https://geti2p.net/en/docs/applications/i2psnark" target="_blank" rel="noopener noreferrer">I2PSnark</a></li>
+      <li><a href="http://fs.i2p">FS</a> Filesharing service</li>
+      <li><a href="http://cake.i2p">Cake Pastebin</a> short term filesharing and pastebin</li>
+      <li><a href="http://paste.r4sas.i2p/">PrivateBin</a> Encrypted pastebin</li>
+      <li><a href="https://paste.idk.i2p">IDK's CowYo pastebin</a>, <a href="https://glue.idk.i2p">Mirror</a>(Requires JS)</li>
   </ul>
+
   <h5>Chat and Messaging Apps</h5>
   <ul>
-    <li><a href="https://geti2p.net/en/docs/applications/i2pchat" target="_blank"
-      rel="noopener noreferrer">I2PChat</a></li>
-  </ul>
+      <li><a href="https://geti2p.net/en/docs/applications/i2pchat" target="_blank" rel="noopener noreferrer">I2PChat</a></li>
+      <li><a href="irc://127.0.0.1/6668/#i2p-chat">Irc2P</a> (works out of the box)</li>
+    </ul>
+
   <h5>Social Networks</h5>
   <ul>
-    <li><a href="http://mu.i2p" target="_blank" rel="noopener noreferrer">Murobbs</a></li>
+      <li><a href="http://mu.i2p" target="_blank" rel="noopener noreferrer">Murobbs</a></li>
+      <li><a href="http://teddit.i2p">Teddit</a> - Privacy respecting Reddit front end</li>
+      <li><a href="http://ramble.i2p">Ramble</a> - Multi-Network reddit alternative</li>
   </ul>
+
+  <h5>Torrents</h5>
+  <ul>
+      <li><a href="https://rebuildingalexandria.wordpress.com/2012/02/21/secure-and-anonymous-file-sharing-using-torrents-on-the-i2p-network-library-nu-exiles-take-a-look/">Tutorial on eepsites and I2P torrenting</a></li>
+      <li><a href="http://tracker2.postman.i2p">PaTracker</a> Main torrent tracker</li>
+      <li><a href="http://torrents.chudo.i2p">Chudo's Torrents</a> (French) torrent tracker</li>
+  </ul>
+
+  <h5>Syndie</h5>
+  <ul>
+      <li><a href="http://syndie-project.i2p">Syndie Project</a> Syndie Project Website</li>
+      <li><a href="http://fomjl7cori4juycw55kdlczpgzzhme6nox6zykokuiov6t5lxhvq.b32.i2p">Syndie Documentation Project</a></li>
+      <li><a href="http://syndie.darrob.i2p">syndie.darrob.i2p</a></li>
+      <li><a href="http://syndie.echelon.i2p">syndie.echelon.i2p</a></li>
+      <li><a href="http://syndie.inscrutable.i2p">syndie.inscrutable.i2p</a></li>
+      <li><a href="http://syndie.killyourtv.i2p">syndie.killyourtv.i2p</a></li>
+      <li><a href="http://syndie.meeh.i2p">syndie.meeh.i2p</a></li>
+      <li><a href="http://syndie.welterde.i2p">syndie.welterde.i2p</a></li>
+  </ul>
+
+  <h5>Inproxies</h5>
+  <ul>
+      <li><a href="http://i2phides.me">i2phides.me</a> / <a href="http://i2p.mk16.de">i2p.mk16.de</a> (<a href="http://i2p-inproxy.mk16.de">i2p-inproxy.mk16.de</a>)</li>
+      <li><a href="http://onion.ly">onion.ly</a></li>
+      <li><a href="http://www.darknetproxy.com">www.darknetproxy.com</a></li>
+  </ul>
+
+  <h5>I2P Name Registries</h5>
+  <ul>
+      <li><a href="http://inr.i2p">inr.i2p</a></li>
+      <li><a href="http://reg.i2p">reg.i2p</a> operated by PurpleI2P Team</li>
+      <li><a href="http://dns.chudo.i2p">dns.chudo.i2p</a></li>
+      <li><a href="http://isitup.i2p">isitup.i2p</a> Another I2P Name Registry and checking tools to see if a eepsite is offline.</li>
+  </ul>
+
+  <h5>Media</h5>
+  <ul>
+      <li><a href="http://tube.i2p">Incogtube</a> - Youtube front end</li>
+  </ul>
+
   <h4>Case Studies and Use Cases</h4>
   <ul>
-    <li><a href="https://geti2p.net/en/docs/applications" target="_blank" rel="noopener noreferrer">Real-world Applications</a></li>
+      <li><a href="https://geti2p.net/en/docs/applications" target="_blank" rel="noopener noreferrer">Real-world Applications</a></li>
   </ul>
+
 </body>
 </html>

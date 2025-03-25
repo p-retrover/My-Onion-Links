@@ -143,7 +143,7 @@
   <div id="header">
 
   <h1>👽🤡🧙👻💀 ONION LINKS 💀👻🧙🤡👽</h1>
-  
+
   <blockquote><h3>"If the government or the parties won't address our needs, we will. It's about direct action, even civil disobedience." (Edward Snowden)</h3></blockquote>
   <p align="center"><img src="https://github.com/RENANZG/My-Onion-Links/assets/53377291/13688964-5ddd-4d11-9ae9-baf0c8f996db" title="Las Meninas (1656) - Velazquez"></p>
 
@@ -153,14 +153,14 @@
   <!-- ############################################################ -->
 
   <p align="center"><img src=".data/8.png" alt="1" title="1"></p>
-  
+
   <hr>
   <!-- ############################################################ -->
-  
+
   <h4>Secure Systems</h4>
-  
+
   <p>Read <a href="https://tb-manual.torproject.org" target="_blank" rel="noopener noreferrer">Tor Browser User Manual</a> for information on how to use Tor. Consider using secure systems, in order of complexity and resource intensity: <a href="https://tails.net/">Tails</a>, <a href="https://www.whonix.org/">Whonix</a> and <a href="https://www.qubes-os.org/">Qubes</a>.
-  
+
 <ul>
   <li>Tails easy install script from Debian based systems: <a href="https://github.com/RENANZG/My-Onion-Links/blob/main/tails_install.sh">tails_install.sh</a>.</li>
   <li>Tails easy install script from Windows: <a href="https://github.com/RENANZG/My-Onion-Links/blob/main/tails_install.sh">tails_install.ps1</a>.
@@ -183,7 +183,7 @@
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnFZm4sVsPXk"
     alt="Secure TailsOS Setup For The Average Dark Web Enjoyer" title="Secure TailsOS Setup For The Average Dark Web Enjoyer">
   </a>
-  
+
   <a href="https://youtube.com/watch?v=GR_U0G-QGA0">
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGR_U0G-QGA0"
     alt="Bad Opsec - How Tor Users Got Caught" title="Bad Opsec - How Tor Users Got Caught">
@@ -194,7 +194,7 @@
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNGiUhjuB22Y"
     alt="DEF CON 30 - Sam Bent - Tor - Darknet Opsec By a Veteran Darknet Vendor"
     title="DEF CON 30 - Sam Bent - Tor - Darknet Opsec By a Veteran Darknet Vendor"></a>
-  
+
   <a href="https://www.youtube.com/watch?v=q9wre0-2WqQ">
   <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dq9wre0-2WqQ"
   alt=" Trump's promise to commute Ross Ulbricht, and Agorism " title=" Trump's promise to commute Ross Ulbricht, and Agorism "/></a>
@@ -207,12 +207,11 @@
   <a href="https://youtu.be/ovAmnAirvz8">
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FovAmnAirvz8"
     alt="Twitter Hacker Faces 77 Years in Prison" title="Twitter Hacker Faces 77 Years in Prison"></a>
-  
+
   <a href="https://youtu.be/JehEh7i1PIE">
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FJehEh7i1PIE"
     alt="This image Can Hack You (The .webp Exploit)" title="This image Can Hack You (The .webp Exploit)"></a>
   <br>
-
 
   <a href="https://www.youtube.com/watch?v=WkphgF6Hn4w">
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DWkphgF6Hn4w"
@@ -236,7 +235,6 @@
     alt="The Loli Police Department in VRChat" title="The Loli Police Department in VRChat">
   </a>
   <br>
-
 
   <a href="https://youtube.com/watch?v=47zJPU0VHSQ">
     <img src="https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D47zJPU0VHSQ"
@@ -837,10 +835,6 @@
         <pre><code>http://thgtoa27ujspeqxasrfvcf5aozqdczvgmwgorrmblh6jn4nino3spcqd.onion</code></pre>
       </li>
       <li>
-        <a href="http://darknetlidvrsli6iso7my54rjayjursyw637aypb6qambkoepmyq2yd.onion/post/the-hitchhiker-s-guide-to-pgp">The Hitchhiker's Guide to PGP</a>
-        <pre><code>http://darknetlidvrsli6iso7my54rjayjursyw637aypb6qambkoepmyq2yd.onion/post/the-hitchhiker-s-guide-to-pgp</code></pre>
-      </li>
-      <li>
         <a href="http://biblemeowimkh3utujmhm6oh2oeb3ubjw2lpgeq3lahrfr2l6ev6zgyd.onion">DNM Bible</a>
         <pre><code>http://biblemeowimkh3utujmhm6oh2oeb3ubjw2lpgeq3lahrfr2l6ev6zgyd.onion</code></pre>
       </li>
@@ -923,10 +917,6 @@
       <li>
         <a href="http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion">MAT2 Meta Data Removal</a>
         <pre><code>http://liqr2cbsjzxmpw6savgh274tuzl34x6cd56h7m7ceatnrokveffm66ad.onion</code></pre>
-      </li>
-      <li>
-        <a href="http://52kuhjz3eohhd4rohxo3xuwetgm7rbdbzb7egzefubg6lu4zvmm4qdad.onion/check/check.php">Browser Check</a>
-        <pre><code>http://52kuhjz3eohhd4rohxo3xuwetgm7rbdbzb7egzefubg6lu4zvmm4qdad.onion/check/check.php</code></pre>
       </li>
     </ul>
     <li>
@@ -1019,10 +1009,6 @@
       <li>
         <a href="http://tempmail4gi5qfqzjs2bxo3wf6eurpelxmior6ohzq5vw7aeay67wiyd.onion">TempMail</a>
         <pre><code>http://tempmail4gi5qfqzjs2bxo3wf6eurpelxmior6ohzq5vw7aeay67wiyd.onion</code></pre>
-      </li>
-      <li>
-        <a href="http://chillingguw3yu2rmrkqsog4554egiry6fmy264l5wblyadds3c2lnyd.onion">Im Hot Chilli</a>
-        <pre><code>http://chillingguw3yu2rmrkqsog4554egiry6fmy264l5wblyadds3c2lnyd.onion</code></pre>
       </li>
       <li>
         <a href="http://torbox36ijlcevujx7mjb4oiusvwgvmue7jfn2cvutwa6kl6to3uyqad.onion">TorBox</a>
